@@ -1,0 +1,11 @@
+sudo apt-get install openmpi-bin libopenmpi-dev
+
+sudo apt-get install git
+
+sudo apt-get install openssh-server
+
+
+
+mpirun -np 1 ./master 9 3 : -np 9 ./reduce : -np 3 ./map
+
+mpirun -np 4 --hostfile my-hosts ./holamundo
