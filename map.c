@@ -10,7 +10,6 @@ double cierre[1][2];
 clock_t t_ini, t_fin;
 double secs;
 
-
 int main(int argc, char *argv[]) {
 
 	int myid;

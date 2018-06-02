@@ -22,7 +22,6 @@ static bool mantenerFuncionando = 1;
 void intHandler(int signal) {
     mantenerFuncionando = false;
 }
-
 /* Funcion para iniciar matrices con valores */
 void iniciamatriz(){
 	/* Inicializa la matriz para reduce con informacion inicial */

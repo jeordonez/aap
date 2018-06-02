@@ -26,7 +26,6 @@ static bool mantenerFuncionando = 1;
 void intHandler(int signal) {
     mantenerFuncionando = false;
 }
-
 /* Inicializa la matriz con informacion inicial donde se almacenaran los resultados */
 void iniciamatriz(){
 	printf("\n");

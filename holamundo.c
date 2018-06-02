@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
     printf("Tenemos %d procesadores\n", numprocs);
     for(i=1;i<numprocs;i++)
     {
-      sprintf(buff, "¡Holaaa %d! ", i);
+      sprintf(buff, "Holaaa %d! ", i);
       MPI_Send(buff, 128, MPI_CHAR, i, 0, MPI_COMM_WORLD);
     }
     for(i=1;i<numprocs;i++)
